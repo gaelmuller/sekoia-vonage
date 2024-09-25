@@ -1,0 +1,30 @@
+{
+  "configuration": {
+    "title": "VonageModuleConfiguration",
+    "type": "object",
+    "properties": {
+      "api_key": {
+        "title": "Api Key",
+        "description": "Vonage API Key",
+        "type": "string"
+      },
+      "api_secret": {
+        "title": "Api Secret",
+        "description": "Vonage API Secret",
+        "type": "string"
+      }
+    },
+    "required": [
+      "api_key",
+      "api_secret"
+    ],
+    "secrets": [
+      "api_key",
+      "api_secret"
+    ]
+  },
+  "description": "Send SMS Messages using Vonage Messaging API",
+  "name": "vonage",
+  "uuid": "6d557a68-bee4-4844-a854-96c3c35f39fb",
+  "version": "0.1.0"
+}

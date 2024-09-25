@@ -1,0 +1,32 @@
+{
+  "name": "Send SMS",
+  "description": "Send an SMS using the Vonage API",
+  "uuid": "99379ca3-8275-5d1e-aab6-deb478ab7133",
+  "docker_parameters": "SendSMSAction",
+  "arguments": {
+    "title": "SendSMSArguments",
+    "type": "object",
+    "properties": {
+      "from_name": {
+        "title": "From Name",
+        "default": "Sekoia XDR",
+        "type": "string"
+      },
+      "text": {
+        "title": "Text",
+        "description": "The text content of the SMS",
+        "type": "string"
+      },
+      "to": {
+        "title": "To",
+        "description": "The phone number to send the SMS to",
+        "type": "string"
+      }
+    },
+    "required": [
+      "text",
+      "to"
+    ]
+  },
+  "results": {}
+}
