@@ -25,6 +25,7 @@
   },
   "description": "Send SMS Messages using Vonage Messaging API",
   "name": "vonage",
+  "slug": "vonage",
   "uuid": "6d557a68-bee4-4844-a854-96c3c35f39fb",
   "version": "0.1.0"
 }
