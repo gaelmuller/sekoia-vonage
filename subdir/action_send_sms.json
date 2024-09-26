@@ -1,7 +1,7 @@
 {
   "name": "Send SMS",
   "description": "Send an SMS using the Vonage API",
-  "uuid": "99379ca3-8275-5d1e-aab6-deb478ab7133",
+  "uuid": "261648ed-12cb-41c4-8813-69bc367e0641",
   "docker_parameters": "SendSMSAction",
   "arguments": {
     "title": "SendSMSArguments",
